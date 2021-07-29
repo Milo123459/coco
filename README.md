@@ -41,7 +41,7 @@ Arguments are prefixed with + and then you provide argument numbers, starting fr
 ## Example
 
 ```
-coco add contributions "https://github-contributions-api.deno.dev/$1.term"
+coco add contributions "https://github-contributions-api.deno.dev/+1.term"
 coco contributions
 # Error! Argument 1 was not provided
 coco contributions Milo123459
