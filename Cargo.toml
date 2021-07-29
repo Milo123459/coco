@@ -12,4 +12,4 @@ serde = { version = "1.0.126", features = ["derive"] }
 structopt = "0.3.22"
 dirs-next = "2.0.0"
 anyhow = "1.0.42"
-fancy-regex = "0.7.0"
+fancy-regex = "0.7.1"
