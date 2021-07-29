@@ -86,7 +86,7 @@ fn template(config: String, args: &args::Arguments) -> anyhow::Result<String> {
 
 pub fn run(script: &config::Script, args: args::Arguments) -> anyhow::Result<()> {
 	Command::new("curl")
-		.arg(template(script.url.clone(), &args).unwrap())
+		.arg(template(script.url.clone(), &args)?)
 		.status()?;
 	Ok(())
 }
