@@ -1,0 +1,15 @@
+[package]
+name = "coco"
+version = "0.1.0"
+edition = "2018"
+include = ["src/**/*", "LICENSE", "README.md"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.64"
+serde = { version = "1.0.126", features = ["derive"] }
+structopt = "0.3.22"
+dirs-next = "2.0.0"
+anyhow = "1.0.42"
+fancy-regex = "0.7.0"
