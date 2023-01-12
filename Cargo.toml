@@ -12,7 +12,7 @@ serde = { version = "1.0.130", features = ["derive"] }
 structopt = "0.3.25"
 dirs-next = "2.0.0"
 anyhow = "1.0.44"
-fancy-regex = "0.7.1"
+fancy-regex = "0.11.0"
 
 [profile.release]
 lto = "fat"
